@@ -1,0 +1,34 @@
+For the time lag initialization ensemble, change the following 
+lines in namelist.input_ndown
+
+Ensemble member S1:
+ run_days                            = 181,
+ run_hours                           = 0,
+ run_minutes                         = 0,
+ run_seconds                         = 0,
+ start_year                          = 2008, 2008,
+ start_month                         = 04,   04,
+ start_day                           = 02,   02,
+ start_hour                          = 00,   00,
+ start_minute                        = 00,   00,
+ start_second                        = 00,   00,
+
+Ensemble member S2:
+ start_day                           = 03,   03,
+
+Ensemble member S3:
+ start_day                           = 04,   04,
+
+Ensemble member S4:
+ start_day                           = 05,   05,
+
+.
+.
+.
+.
+
+Ensemble member S8:
+ start_day                           = 09,   09,
+
+
+

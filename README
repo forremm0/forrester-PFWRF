@@ -1,0 +1,38 @@
+Workflow for PFWRF setup over the Rocky Mountain headwaters
+
+1. MPB: Identifies cells within domain to apply disturbance condition
+
+2. PFCLM_Spinup: Creating the initial pressure condition for ParFlow in PFWRF
+This folder contains all inputs necessary to run ParFlow coupled to the CLM
+land surface model, which were used to establish initial hydraulic pressure
+for ParFlow-WRF. Pressure inputs for three years of spinup are given (names
+vary by SP1, SP2, SP3 for input for each consecutive year). The simulation
+gives hourly outputs for pressure and saturation (and several CLM variables)
+for green and grey phase scenarios. Pressure output for April 2 is used as
+the initial pressure condition for ParFlow-WRF in step 4.
+
+3. WPS: WRF Preprocessing system
+Run geogrid.exe, ungrib.exe, and metgrid.exe, which sets up the WRF nested domains.
+
+4. WRF_nested: Running WRF and ndown over nested domains to establish WRF IC/BC
+Run real.exe and wrf.exe to run nest with one-way coupling, which produces
+wrfinput, wrfbdy and wrfout files for the top three domains. The two innermost
+domains are then run with ndown.exe to produce wrfinput and wrfbdy for d04, the
+innermost domain over which PF-WRF is run. The namelist for ndown should be edited
+to include time lag ensemble by shifting the day at which ndown begins. We do this
+8 times for an 8-member ensemble.
+
+5. PFWRF: 1) Starting the coupled model for 8 ensemble members on 4-02 
+          2) Increasing ensemble variance on 4-12 and applying disturbance perturbation
+-One example has been given for a single ensemble member (S1), and instructions are 
+included for how to run for other members
+-Step one is an initialization step for ParFlow-WRF beginning on April 2. It uses IC/BC
+from steps 4 and 2, and the run time length varies between 10 days (beginning on 4-02)
+and 3 days (beginning on 4-09) depending on the time lag ensemble member. This step
+produces wrfout files (not used) and wrfrst files daily.
+-Step two restarts the model on April 12. Grab the wrf restart file on April 12 from
+the PFWRF initialization step. Run the included R scripts to apply an amplitude
+increase to the ensemble variance for T, U, V, and P (if full ensemble has been
+started on April 2), to initialize snow, and to run the land disturbance scenario 
+(if in the 'grey' scenario folder).
+

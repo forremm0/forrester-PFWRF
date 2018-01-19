@@ -1,0 +1,528 @@
+2017-09-26 10:48:25.708 ---  *** Starting program geogrid.exe ***
+2017-09-26 10:48:25.710 --- Using the following namelist variables:
+2017-09-26 10:48:25.710 --- &SHARE
+2017-09-26 10:48:25.710 ---   WRF_CORE         = ARW
+2017-09-26 10:48:25.710 ---   MAX_DOM          = 4
+2017-09-26 10:48:25.710 ---   START_YEAR       = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---   START_MONTH      = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---   START_DAY        = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---   START_HOUR       = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---   START_MINUTE     = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---                    = 0
+2017-09-26 10:48:25.710 ---   START_SECOND     = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---   END_YEAR         = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---   END_MONTH        = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---   END_DAY          = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---   END_HOUR         = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---   END_MINUTE       = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---   END_SECOND       = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---                    = 0
+2017-09-26 10:48:25.711 ---   START_DATE       = 2008-04-01_12:00:00
+2017-09-26 10:48:25.711 ---                    = 2008-04-01_12:00:00
+2017-09-26 10:48:25.711 ---                    = 2008-04-01_12:00:00
+2017-09-26 10:48:25.711 ---                    = 2008-04-01_12:00:00
+2017-09-26 10:48:25.711 ---   END_DATE         = 2008-09-30_00:00:00
+2017-09-26 10:48:25.711 ---                    = 2008-09-30_00:00:00
+2017-09-26 10:48:25.711 ---                    = 2008-09-30_00:00:00
+2017-09-26 10:48:25.711 ---                    = 2008-09-30_00:00:00
+2017-09-26 10:48:25.711 ---   INTERVAL_SECONDS = 21600
+2017-09-26 10:48:25.711 ---   IO_FORM_GEOGRID  = 2
+2017-09-26 10:48:25.711 ---   OPT_OUTPUT_FROM_GEOGRID_PATH = ./
+2017-09-26 10:48:25.711 ---   SUBGRID_RATIO_X  = 1
+2017-09-26 10:48:25.711 ---                    = 1
+2017-09-26 10:48:25.711 ---                    = 1
+2017-09-26 10:48:25.711 ---                    = 1
+2017-09-26 10:48:25.711 ---   SUBGRID_RATIO_Y  = 1
+2017-09-26 10:48:25.711 ---                    = 1
+2017-09-26 10:48:25.711 ---                    = 1
+2017-09-26 10:48:25.711 ---                    = 1
+2017-09-26 10:48:25.711 ---   DEBUG_LEVEL      = 0
+2017-09-26 10:48:25.711 ---   ACTIVE_GRID      = .TRUE.
+2017-09-26 10:48:25.711 ---                    = .TRUE.
+2017-09-26 10:48:25.713 ---                    = .TRUE.
+2017-09-26 10:48:25.713 ---                    = .TRUE.
+2017-09-26 10:48:25.714 ---   NOCOLONS         = .FALSE.
+2017-09-26 10:48:25.714 --- /
+2017-09-26 10:48:25.714 --- &GEOGRID
+2017-09-26 10:48:25.714 ---   PARENT_ID         = 1
+2017-09-26 10:48:25.714 ---                     = 1
+2017-09-26 10:48:25.714 ---                     = 2
+2017-09-26 10:48:25.714 ---                     = 3
+2017-09-26 10:48:25.714 ---   PARENT_GRID_RATIO = 1
+2017-09-26 10:48:25.714 ---                     = 3
+2017-09-26 10:48:25.714 ---                     = 3
+2017-09-26 10:48:25.714 ---                     = 3
+2017-09-26 10:48:25.714 ---   I_PARENT_START    = 1
+2017-09-26 10:48:25.714 ---                     = 34
+2017-09-26 10:48:25.714 ---                     = 31
+2017-09-26 10:48:25.714 ---                     = 64
+2017-09-26 10:48:25.714 ---   J_PARENT_START    = 1
+2017-09-26 10:48:25.714 ---                     = 28
+2017-09-26 10:48:25.714 ---                     = 25
+2017-09-26 10:48:25.714 ---                     = 46
+2017-09-26 10:48:25.714 ---   S_WE              = 1
+2017-09-26 10:48:25.714 ---                     = 1
+2017-09-26 10:48:25.714 ---                     = 1
+2017-09-26 10:48:25.714 ---                     = 1
+2017-09-26 10:48:25.714 ---   E_WE              = 101
+2017-09-26 10:48:25.714 ---                     = 136
+2017-09-26 10:48:25.714 ---                     = 214
+2017-09-26 10:48:25.714 ---                     = 217
+2017-09-26 10:48:25.714 ---   S_SN              = 1
+2017-09-26 10:48:25.714 ---                     = 1
+2017-09-26 10:48:25.714 ---                     = 1
+2017-09-26 10:48:25.714 ---                     = 1
+2017-09-26 10:48:25.714 ---   E_SN              = 81
+2017-09-26 10:48:25.714 ---                     = 109
+2017-09-26 10:48:25.714 ---                     = 181
+2017-09-26 10:48:25.714 ---                     = 133
+2017-09-26 10:48:25.714 ---   GEOG_DATA_RES     = 10m
+2017-09-26 10:48:25.714 ---                     = 5m
+2017-09-26 10:48:25.714 ---                     = 2m
+2017-09-26 10:48:25.714 ---                     = 30s
+2017-09-26 10:48:25.714 ---   DX                = 27000.000000
+2017-09-26 10:48:25.714 ---   DY                = 27000.000000
+2017-09-26 10:48:25.714 ---   MAP_PROJ          = lambert
+2017-09-26 10:48:25.714 ---   POLE_LAT          = 90.000000
+2017-09-26 10:48:25.714 ---   POLE_LON          = 0.000000
+2017-09-26 10:48:25.714 ---   REF_LAT           = 39.207199
+2017-09-26 10:48:25.714 ---   REF_LON           = -107.340500
+2017-09-26 10:48:25.714 ---   REF_X             = 100000002004087734272.000000
+2017-09-26 10:48:25.714 ---   REF_Y             = 100000002004087734272.000000
+2017-09-26 10:48:25.714 ---   TRUELAT1          = 34.000000
+2017-09-26 10:48:25.714 ---   TRUELAT2          = 44.000000
+2017-09-26 10:48:25.714 ---   STAND_LON         = -96.000000
+2017-09-26 10:48:25.714 ---   GEOG_DATA_PATH    = /glade/u/home/wrfhelp/WPS_GEOG/
+2017-09-26 10:48:25.714 ---   OPT_GEOGRID_TBL_PATH = geogrid/
+2017-09-26 10:48:25.714 --- /
+2017-09-26 10:48:25.717 --- Processing domain 1 of 4
+2017-09-26 10:48:25.717 --- INFORM: Using 10m interpolator sequence for HGT_M.
+2017-09-26 10:48:25.717 --- INFORM: Using 10m data source for HGT_M.
+2017-09-26 10:48:25.717 --- INFORM: Using 10m interpolator sequence for LANDUSEF.
+2017-09-26 10:48:25.717 --- INFORM: Using 10m data source for LANDUSEF.
+2017-09-26 10:48:25.758 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution 10m.
+2017-09-26 10:48:25.758 --- INFORM: Using default interpolator sequence for SOILTEMP.
+2017-09-26 10:48:25.758 --- INFORM: For SOILTEMP, couldn't find 10m data source.
+2017-09-26 10:48:25.758 --- INFORM: Using default data source for SOILTEMP.
+2017-09-26 10:48:25.803 --- INFORM: Using 10m interpolator sequence for SOILCTOP.
+2017-09-26 10:48:25.803 --- INFORM: Using 10m data source for SOILCTOP.
+2017-09-26 10:48:25.838 --- INFORM: Using 10m interpolator sequence for SOILCBOT.
+2017-09-26 10:48:25.838 --- INFORM: Using 10m data source for SOILCBOT.
+2017-09-26 10:48:26.071 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution 10m.
+2017-09-26 10:48:26.071 --- INFORM: Using default interpolator sequence for ALBEDO12M.
+2017-09-26 10:48:26.071 --- INFORM: For ALBEDO12M, couldn't find 10m data source.
+2017-09-26 10:48:26.071 --- INFORM: Using default data source for ALBEDO12M.
+2017-09-26 10:48:26.116 --- INFORM: For GREENFRAC, couldn't find interpolator sequence for resolution 10m.
+2017-09-26 10:48:26.116 --- INFORM: Using default interpolator sequence for GREENFRAC.
+2017-09-26 10:48:26.116 --- INFORM: For GREENFRAC, couldn't find 10m data source.
+2017-09-26 10:48:26.116 --- INFORM: Using default data source for GREENFRAC.
+2017-09-26 10:48:26.149 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution 10m.
+2017-09-26 10:48:26.149 --- INFORM: Using default interpolator sequence for LAI12M.
+2017-09-26 10:48:26.149 --- INFORM: For LAI12M, couldn't find 10m data source.
+2017-09-26 10:48:26.149 --- INFORM: Using default data source for LAI12M.
+2017-09-26 10:48:26.192 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution 10m.
+2017-09-26 10:48:26.192 --- INFORM: Using default interpolator sequence for SNOALB.
+2017-09-26 10:48:26.192 --- INFORM: For SNOALB, couldn't find 10m data source.
+2017-09-26 10:48:26.192 --- INFORM: Using default data source for SNOALB.
+2017-09-26 10:48:26.237 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution 10m.
+2017-09-26 10:48:26.237 --- INFORM: Using default interpolator sequence for SLOPECAT.
+2017-09-26 10:48:26.237 --- INFORM: For SLOPECAT, couldn't find 10m data source.
+2017-09-26 10:48:26.237 --- INFORM: Using default data source for SLOPECAT.
+2017-09-26 10:48:26.255 --- INFORM: Using 10m interpolator sequence for CON.
+2017-09-26 10:48:26.255 --- INFORM: Using 10m data source for CON.
+2017-09-26 10:48:26.311 --- INFORM: Using 10m interpolator sequence for VAR.
+2017-09-26 10:48:26.311 --- INFORM: Using 10m data source for VAR.
+2017-09-26 10:48:26.338 --- INFORM: Using 10m interpolator sequence for OA1.
+2017-09-26 10:48:26.338 --- INFORM: Using 10m data source for OA1.
+2017-09-26 10:48:26.357 --- INFORM: Using 10m interpolator sequence for OA2.
+2017-09-26 10:48:26.357 --- INFORM: Using 10m data source for OA2.
+2017-09-26 10:48:26.374 --- INFORM: Using 10m interpolator sequence for OA3.
+2017-09-26 10:48:26.374 --- INFORM: Using 10m data source for OA3.
+2017-09-26 10:48:26.396 --- INFORM: Using 10m interpolator sequence for OA4.
+2017-09-26 10:48:26.396 --- INFORM: Using 10m data source for OA4.
+2017-09-26 10:48:26.418 --- INFORM: Using 10m interpolator sequence for OL1.
+2017-09-26 10:48:26.418 --- INFORM: Using 10m data source for OL1.
+2017-09-26 10:48:26.450 --- INFORM: Using 10m interpolator sequence for OL2.
+2017-09-26 10:48:26.450 --- INFORM: Using 10m data source for OL2.
+2017-09-26 10:48:26.462 --- INFORM: Using 10m interpolator sequence for OL3.
+2017-09-26 10:48:26.462 --- INFORM: Using 10m data source for OL3.
+2017-09-26 10:48:26.476 --- INFORM: Using 10m interpolator sequence for OL4.
+2017-09-26 10:48:26.476 --- INFORM: Using 10m data source for OL4.
+2017-09-26 10:48:26.497 --- INFORM: Using 10m interpolator sequence for VAR_SSO.
+2017-09-26 10:48:26.497 --- INFORM: Using 10m data source for VAR_SSO.
+2017-09-26 10:48:26.546 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution 10m.
+2017-09-26 10:48:26.546 --- INFORM: Using default interpolator sequence for LAKE_DEPTH.
+2017-09-26 10:48:26.546 --- INFORM: For LAKE_DEPTH, couldn't find 10m data source.
+2017-09-26 10:48:26.546 --- INFORM: Using default data source for LAKE_DEPTH.
+2017-09-26 10:48:26.639 --- Processing field 1 of 25 (LANDUSEF)
+2017-09-26 10:48:27.038 --- Processing field 2 of 25 (LU_INDEX)
+2017-09-26 10:48:27.041 --- Processing field 3 of 25 (HGT_M)
+2017-09-26 10:48:27.157 --- Processing field 4 of 25 (SOILTEMP)
+2017-09-26 10:48:27.205 --- Processing field 5 of 25 (SOILCTOP)
+2017-09-26 10:48:27.406 --- Processing field 6 of 25 (SCT_DOM)
+2017-09-26 10:48:27.409 --- Processing field 7 of 25 (SOILCBOT)
+2017-09-26 10:48:27.781 --- Processing field 8 of 25 (SCB_DOM)
+2017-09-26 10:48:27.784 --- Processing field 9 of 25 (ALBEDO12M)
+2017-09-26 10:48:28.069 --- Processing field 10 of 25 (GREENFRAC)
+2017-09-26 10:48:28.322 --- Processing field 11 of 25 (LAI12M)
+2017-09-26 10:48:28.457 --- Processing field 12 of 25 (SNOALB)
+2017-09-26 10:48:28.470 --- Processing field 13 of 25 (SLOPECAT)
+2017-09-26 10:48:28.508 --- Processing field 14 of 25 (CON)
+2017-09-26 10:48:28.766 --- Processing field 15 of 25 (VAR)
+2017-09-26 10:48:28.837 --- Processing field 16 of 25 (OA1)
+2017-09-26 10:48:28.918 --- Processing field 17 of 25 (OA2)
+2017-09-26 10:48:28.987 --- Processing field 18 of 25 (OA3)
+2017-09-26 10:48:29.051 --- Processing field 19 of 25 (OA4)
+2017-09-26 10:48:29.121 --- Processing field 20 of 25 (OL1)
+2017-09-26 10:48:29.185 --- Processing field 21 of 25 (OL2)
+2017-09-26 10:48:29.469 --- Processing field 22 of 25 (OL3)
+2017-09-26 10:48:29.550 --- Processing field 23 of 25 (OL4)
+2017-09-26 10:48:29.828 --- Processing field 24 of 25 (VAR_SSO)
+2017-09-26 10:48:30.120 --- Processing field 25 of 25 (LAKE_DEPTH)
+2017-09-26 10:48:33.621 --- Processing domain 2 of 4
+2017-09-26 10:48:33.621 --- INFORM: Using 5m interpolator sequence for HGT_M.
+2017-09-26 10:48:33.621 --- INFORM: Using 5m data source for HGT_M.
+2017-09-26 10:48:33.637 --- INFORM: Using 5m interpolator sequence for LANDUSEF.
+2017-09-26 10:48:33.637 --- INFORM: Using 5m data source for LANDUSEF.
+2017-09-26 10:48:33.861 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:33.862 --- INFORM: Using default interpolator sequence for SOILTEMP.
+2017-09-26 10:48:33.862 --- INFORM: For SOILTEMP, couldn't find 5m data source.
+2017-09-26 10:48:33.862 --- INFORM: Using default data source for SOILTEMP.
+2017-09-26 10:48:33.862 --- INFORM: Using 5m interpolator sequence for SOILCTOP.
+2017-09-26 10:48:33.862 --- INFORM: Using 5m data source for SOILCTOP.
+2017-09-26 10:48:34.095 --- INFORM: Using 5m interpolator sequence for SOILCBOT.
+2017-09-26 10:48:34.095 --- INFORM: Using 5m data source for SOILCBOT.
+2017-09-26 10:48:34.123 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.123 --- INFORM: Using default interpolator sequence for ALBEDO12M.
+2017-09-26 10:48:34.123 --- INFORM: For ALBEDO12M, couldn't find 5m data source.
+2017-09-26 10:48:34.123 --- INFORM: Using default data source for ALBEDO12M.
+2017-09-26 10:48:34.124 --- INFORM: For GREENFRAC, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.124 --- INFORM: Using default interpolator sequence for GREENFRAC.
+2017-09-26 10:48:34.124 --- INFORM: For GREENFRAC, couldn't find 5m data source.
+2017-09-26 10:48:34.124 --- INFORM: Using default data source for GREENFRAC.
+2017-09-26 10:48:34.124 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.124 --- INFORM: Using default interpolator sequence for LAI12M.
+2017-09-26 10:48:34.124 --- INFORM: For LAI12M, couldn't find 5m data source.
+2017-09-26 10:48:34.124 --- INFORM: Using default data source for LAI12M.
+2017-09-26 10:48:34.124 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.125 --- INFORM: Using default interpolator sequence for SNOALB.
+2017-09-26 10:48:34.125 --- INFORM: For SNOALB, couldn't find 5m data source.
+2017-09-26 10:48:34.125 --- INFORM: Using default data source for SNOALB.
+2017-09-26 10:48:34.125 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.125 --- INFORM: Using default interpolator sequence for SLOPECAT.
+2017-09-26 10:48:34.125 --- INFORM: For SLOPECAT, couldn't find 5m data source.
+2017-09-26 10:48:34.125 --- INFORM: Using default data source for SLOPECAT.
+2017-09-26 10:48:34.125 --- INFORM: For CON, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.125 --- INFORM: Using default interpolator sequence for CON.
+2017-09-26 10:48:34.125 --- INFORM: For CON, couldn't find 5m data source.
+2017-09-26 10:48:34.125 --- INFORM: Using default data source for CON.
+2017-09-26 10:48:34.126 --- INFORM: For VAR, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.126 --- INFORM: Using default interpolator sequence for VAR.
+2017-09-26 10:48:34.126 --- INFORM: For VAR, couldn't find 5m data source.
+2017-09-26 10:48:34.126 --- INFORM: Using default data source for VAR.
+2017-09-26 10:48:34.126 --- INFORM: For OA1, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.126 --- INFORM: Using default interpolator sequence for OA1.
+2017-09-26 10:48:34.126 --- INFORM: For OA1, couldn't find 5m data source.
+2017-09-26 10:48:34.126 --- INFORM: Using default data source for OA1.
+2017-09-26 10:48:34.126 --- INFORM: For OA2, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.126 --- INFORM: Using default interpolator sequence for OA2.
+2017-09-26 10:48:34.126 --- INFORM: For OA2, couldn't find 5m data source.
+2017-09-26 10:48:34.126 --- INFORM: Using default data source for OA2.
+2017-09-26 10:48:34.127 --- INFORM: For OA3, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.127 --- INFORM: Using default interpolator sequence for OA3.
+2017-09-26 10:48:34.127 --- INFORM: For OA3, couldn't find 5m data source.
+2017-09-26 10:48:34.127 --- INFORM: Using default data source for OA3.
+2017-09-26 10:48:34.127 --- INFORM: For OA4, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.127 --- INFORM: Using default interpolator sequence for OA4.
+2017-09-26 10:48:34.127 --- INFORM: For OA4, couldn't find 5m data source.
+2017-09-26 10:48:34.127 --- INFORM: Using default data source for OA4.
+2017-09-26 10:48:34.127 --- INFORM: For OL1, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.128 --- INFORM: Using default interpolator sequence for OL1.
+2017-09-26 10:48:34.128 --- INFORM: For OL1, couldn't find 5m data source.
+2017-09-26 10:48:34.128 --- INFORM: Using default data source for OL1.
+2017-09-26 10:48:34.128 --- INFORM: For OL2, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.128 --- INFORM: Using default interpolator sequence for OL2.
+2017-09-26 10:48:34.128 --- INFORM: For OL2, couldn't find 5m data source.
+2017-09-26 10:48:34.128 --- INFORM: Using default data source for OL2.
+2017-09-26 10:48:34.128 --- INFORM: For OL3, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.128 --- INFORM: Using default interpolator sequence for OL3.
+2017-09-26 10:48:34.128 --- INFORM: For OL3, couldn't find 5m data source.
+2017-09-26 10:48:34.128 --- INFORM: Using default data source for OL3.
+2017-09-26 10:48:34.129 --- INFORM: For OL4, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.129 --- INFORM: Using default interpolator sequence for OL4.
+2017-09-26 10:48:34.129 --- INFORM: For OL4, couldn't find 5m data source.
+2017-09-26 10:48:34.129 --- INFORM: Using default data source for OL4.
+2017-09-26 10:48:34.129 --- INFORM: Using 5m interpolator sequence for VAR_SSO.
+2017-09-26 10:48:34.129 --- INFORM: Using 5m data source for VAR_SSO.
+2017-09-26 10:48:34.385 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution 5m.
+2017-09-26 10:48:34.385 --- INFORM: Using default interpolator sequence for LAKE_DEPTH.
+2017-09-26 10:48:34.385 --- INFORM: For LAKE_DEPTH, couldn't find 5m data source.
+2017-09-26 10:48:34.385 --- INFORM: Using default data source for LAKE_DEPTH.
+2017-09-26 10:48:34.441 --- Processing field 1 of 25 (LANDUSEF)
+2017-09-26 10:48:34.614 --- Processing field 2 of 25 (LU_INDEX)
+2017-09-26 10:48:34.624 --- Processing field 3 of 25 (HGT_M)
+2017-09-26 10:48:34.678 --- Processing field 4 of 25 (SOILTEMP)
+2017-09-26 10:48:34.691 --- Processing field 5 of 25 (SOILCTOP)
+2017-09-26 10:48:35.198 --- Processing field 6 of 25 (SCT_DOM)
+2017-09-26 10:48:35.200 --- Processing field 7 of 25 (SOILCBOT)
+2017-09-26 10:48:35.341 --- Processing field 8 of 25 (SCB_DOM)
+2017-09-26 10:48:35.343 --- Processing field 9 of 25 (ALBEDO12M)
+2017-09-26 10:48:35.537 --- Processing field 10 of 25 (GREENFRAC)
+2017-09-26 10:48:35.850 --- Processing field 11 of 25 (LAI12M)
+2017-09-26 10:48:35.885 --- Processing field 12 of 25 (SNOALB)
+2017-09-26 10:48:35.892 --- Processing field 13 of 25 (SLOPECAT)
+2017-09-26 10:48:35.908 --- Processing field 14 of 25 (CON)
+2017-09-26 10:48:35.963 --- Processing field 15 of 25 (VAR)
+2017-09-26 10:48:36.241 --- Processing field 16 of 25 (OA1)
+2017-09-26 10:48:36.313 --- Processing field 17 of 25 (OA2)
+2017-09-26 10:48:36.382 --- Processing field 18 of 25 (OA3)
+2017-09-26 10:48:36.440 --- Processing field 19 of 25 (OA4)
+2017-09-26 10:48:36.477 --- Processing field 20 of 25 (OL1)
+2017-09-26 10:48:36.506 --- Processing field 21 of 25 (OL2)
+2017-09-26 10:48:36.578 --- Processing field 22 of 25 (OL3)
+2017-09-26 10:48:36.828 --- Processing field 23 of 25 (OL4)
+2017-09-26 10:48:36.937 --- Processing field 24 of 25 (VAR_SSO)
+2017-09-26 10:48:37.268 --- Processing field 25 of 25 (LAKE_DEPTH)
+2017-09-26 10:48:38.467 --- Processing domain 3 of 4
+2017-09-26 10:48:38.467 --- INFORM: Using 2m interpolator sequence for HGT_M.
+2017-09-26 10:48:38.467 --- INFORM: Using 2m data source for HGT_M.
+2017-09-26 10:48:38.755 --- INFORM: Using 2m interpolator sequence for LANDUSEF.
+2017-09-26 10:48:38.755 --- INFORM: Using 2m data source for LANDUSEF.
+2017-09-26 10:48:38.813 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.813 --- INFORM: Using default interpolator sequence for SOILTEMP.
+2017-09-26 10:48:38.813 --- INFORM: For SOILTEMP, couldn't find 2m data source.
+2017-09-26 10:48:38.813 --- INFORM: Using default data source for SOILTEMP.
+2017-09-26 10:48:38.813 --- INFORM: Using 2m interpolator sequence for SOILCTOP.
+2017-09-26 10:48:38.813 --- INFORM: Using 2m data source for SOILCTOP.
+2017-09-26 10:48:38.872 --- INFORM: Using 2m interpolator sequence for SOILCBOT.
+2017-09-26 10:48:38.872 --- INFORM: Using 2m data source for SOILCBOT.
+2017-09-26 10:48:38.897 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.897 --- INFORM: Using default interpolator sequence for ALBEDO12M.
+2017-09-26 10:48:38.897 --- INFORM: For ALBEDO12M, couldn't find 2m data source.
+2017-09-26 10:48:38.897 --- INFORM: Using default data source for ALBEDO12M.
+2017-09-26 10:48:38.897 --- INFORM: For GREENFRAC, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.897 --- INFORM: Using default interpolator sequence for GREENFRAC.
+2017-09-26 10:48:38.897 --- INFORM: For GREENFRAC, couldn't find 2m data source.
+2017-09-26 10:48:38.897 --- INFORM: Using default data source for GREENFRAC.
+2017-09-26 10:48:38.898 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.898 --- INFORM: Using default interpolator sequence for LAI12M.
+2017-09-26 10:48:38.898 --- INFORM: For LAI12M, couldn't find 2m data source.
+2017-09-26 10:48:38.898 --- INFORM: Using default data source for LAI12M.
+2017-09-26 10:48:38.898 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.898 --- INFORM: Using default interpolator sequence for SNOALB.
+2017-09-26 10:48:38.898 --- INFORM: For SNOALB, couldn't find 2m data source.
+2017-09-26 10:48:38.898 --- INFORM: Using default data source for SNOALB.
+2017-09-26 10:48:38.898 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.898 --- INFORM: Using default interpolator sequence for SLOPECAT.
+2017-09-26 10:48:38.898 --- INFORM: For SLOPECAT, couldn't find 2m data source.
+2017-09-26 10:48:38.898 --- INFORM: Using default data source for SLOPECAT.
+2017-09-26 10:48:38.898 --- INFORM: For CON, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.898 --- INFORM: Using default interpolator sequence for CON.
+2017-09-26 10:48:38.898 --- INFORM: For CON, couldn't find 2m data source.
+2017-09-26 10:48:38.898 --- INFORM: Using default data source for CON.
+2017-09-26 10:48:38.898 --- INFORM: For VAR, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.898 --- INFORM: Using default interpolator sequence for VAR.
+2017-09-26 10:48:38.898 --- INFORM: For VAR, couldn't find 2m data source.
+2017-09-26 10:48:38.898 --- INFORM: Using default data source for VAR.
+2017-09-26 10:48:38.898 --- INFORM: For OA1, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.898 --- INFORM: Using default interpolator sequence for OA1.
+2017-09-26 10:48:38.898 --- INFORM: For OA1, couldn't find 2m data source.
+2017-09-26 10:48:38.898 --- INFORM: Using default data source for OA1.
+2017-09-26 10:48:38.899 --- INFORM: For OA2, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.899 --- INFORM: Using default interpolator sequence for OA2.
+2017-09-26 10:48:38.899 --- INFORM: For OA2, couldn't find 2m data source.
+2017-09-26 10:48:38.899 --- INFORM: Using default data source for OA2.
+2017-09-26 10:48:38.899 --- INFORM: For OA3, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.899 --- INFORM: Using default interpolator sequence for OA3.
+2017-09-26 10:48:38.899 --- INFORM: For OA3, couldn't find 2m data source.
+2017-09-26 10:48:38.899 --- INFORM: Using default data source for OA3.
+2017-09-26 10:48:38.899 --- INFORM: For OA4, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.899 --- INFORM: Using default interpolator sequence for OA4.
+2017-09-26 10:48:38.899 --- INFORM: For OA4, couldn't find 2m data source.
+2017-09-26 10:48:38.899 --- INFORM: Using default data source for OA4.
+2017-09-26 10:48:38.899 --- INFORM: For OL1, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.899 --- INFORM: Using default interpolator sequence for OL1.
+2017-09-26 10:48:38.899 --- INFORM: For OL1, couldn't find 2m data source.
+2017-09-26 10:48:38.899 --- INFORM: Using default data source for OL1.
+2017-09-26 10:48:38.899 --- INFORM: For OL2, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.899 --- INFORM: Using default interpolator sequence for OL2.
+2017-09-26 10:48:38.899 --- INFORM: For OL2, couldn't find 2m data source.
+2017-09-26 10:48:38.899 --- INFORM: Using default data source for OL2.
+2017-09-26 10:48:38.899 --- INFORM: For OL3, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.899 --- INFORM: Using default interpolator sequence for OL3.
+2017-09-26 10:48:38.899 --- INFORM: For OL3, couldn't find 2m data source.
+2017-09-26 10:48:38.899 --- INFORM: Using default data source for OL3.
+2017-09-26 10:48:38.900 --- INFORM: For OL4, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.900 --- INFORM: Using default interpolator sequence for OL4.
+2017-09-26 10:48:38.900 --- INFORM: For OL4, couldn't find 2m data source.
+2017-09-26 10:48:38.900 --- INFORM: Using default data source for OL4.
+2017-09-26 10:48:38.900 --- INFORM: Using 2m interpolator sequence for VAR_SSO.
+2017-09-26 10:48:38.900 --- INFORM: Using 2m data source for VAR_SSO.
+2017-09-26 10:48:38.942 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution 2m.
+2017-09-26 10:48:38.942 --- INFORM: Using default interpolator sequence for LAKE_DEPTH.
+2017-09-26 10:48:38.942 --- INFORM: For LAKE_DEPTH, couldn't find 2m data source.
+2017-09-26 10:48:38.942 --- INFORM: Using default data source for LAKE_DEPTH.
+2017-09-26 10:48:39.063 --- Processing field 1 of 25 (LANDUSEF)
+2017-09-26 10:48:39.420 --- Processing field 2 of 25 (LU_INDEX)
+2017-09-26 10:48:39.436 --- Processing field 3 of 25 (HGT_M)
+2017-09-26 10:48:39.487 --- Processing field 4 of 25 (SOILTEMP)
+2017-09-26 10:48:39.525 --- Processing field 5 of 25 (SOILCTOP)
+2017-09-26 10:48:39.766 --- Processing field 6 of 25 (SCT_DOM)
+2017-09-26 10:48:39.771 --- Processing field 7 of 25 (SOILCBOT)
+2017-09-26 10:48:39.980 --- Processing field 8 of 25 (SCB_DOM)
+2017-09-26 10:48:39.985 --- Processing field 9 of 25 (ALBEDO12M)
+2017-09-26 10:48:40.173 --- Processing field 10 of 25 (GREENFRAC)
+2017-09-26 10:48:40.366 --- Processing field 11 of 25 (LAI12M)
+2017-09-26 10:48:40.443 --- Processing field 12 of 25 (SNOALB)
+2017-09-26 10:48:40.458 --- Processing field 13 of 25 (SLOPECAT)
+2017-09-26 10:48:40.489 --- Processing field 14 of 25 (CON)
+2017-09-26 10:48:40.525 --- Processing field 15 of 25 (VAR)
+2017-09-26 10:48:40.565 --- Processing field 16 of 25 (OA1)
+2017-09-26 10:48:40.612 --- Processing field 17 of 25 (OA2)
+2017-09-26 10:48:40.648 --- Processing field 18 of 25 (OA3)
+2017-09-26 10:48:40.688 --- Processing field 19 of 25 (OA4)
+2017-09-26 10:48:40.734 --- Processing field 20 of 25 (OL1)
+2017-09-26 10:48:40.772 --- Processing field 21 of 25 (OL2)
+2017-09-26 10:48:40.829 --- Processing field 22 of 25 (OL3)
+2017-09-26 10:48:40.853 --- Processing field 23 of 25 (OL4)
+2017-09-26 10:48:40.914 --- Processing field 24 of 25 (VAR_SSO)
+2017-09-26 10:48:41.027 --- Processing field 25 of 25 (LAKE_DEPTH)
+2017-09-26 10:48:41.865 --- Processing domain 4 of 4
+2017-09-26 10:48:41.865 --- INFORM: Using 30s interpolator sequence for HGT_M.
+2017-09-26 10:48:41.865 --- INFORM: Using 30s data source for HGT_M.
+2017-09-26 10:48:41.890 --- INFORM: Using 30s interpolator sequence for LANDUSEF.
+2017-09-26 10:48:41.891 --- INFORM: Using 30s data source for LANDUSEF.
+2017-09-26 10:48:41.912 --- INFORM: For SOILTEMP, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.912 --- INFORM: Using default interpolator sequence for SOILTEMP.
+2017-09-26 10:48:41.912 --- INFORM: For SOILTEMP, couldn't find 30s data source.
+2017-09-26 10:48:41.912 --- INFORM: Using default data source for SOILTEMP.
+2017-09-26 10:48:41.912 --- INFORM: Using 30s interpolator sequence for SOILCTOP.
+2017-09-26 10:48:41.912 --- INFORM: Using 30s data source for SOILCTOP.
+2017-09-26 10:48:41.945 --- INFORM: Using 30s interpolator sequence for SOILCBOT.
+2017-09-26 10:48:41.945 --- INFORM: Using 30s data source for SOILCBOT.
+2017-09-26 10:48:41.981 --- INFORM: For ALBEDO12M, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.981 --- INFORM: Using default interpolator sequence for ALBEDO12M.
+2017-09-26 10:48:41.981 --- INFORM: For ALBEDO12M, couldn't find 30s data source.
+2017-09-26 10:48:41.981 --- INFORM: Using default data source for ALBEDO12M.
+2017-09-26 10:48:41.981 --- INFORM: For GREENFRAC, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.981 --- INFORM: Using default interpolator sequence for GREENFRAC.
+2017-09-26 10:48:41.981 --- INFORM: For GREENFRAC, couldn't find 30s data source.
+2017-09-26 10:48:41.981 --- INFORM: Using default data source for GREENFRAC.
+2017-09-26 10:48:41.981 --- INFORM: For LAI12M, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.981 --- INFORM: Using default interpolator sequence for LAI12M.
+2017-09-26 10:48:41.981 --- INFORM: For LAI12M, couldn't find 30s data source.
+2017-09-26 10:48:41.982 --- INFORM: Using default data source for LAI12M.
+2017-09-26 10:48:41.982 --- INFORM: For SNOALB, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.982 --- INFORM: Using default interpolator sequence for SNOALB.
+2017-09-26 10:48:41.982 --- INFORM: For SNOALB, couldn't find 30s data source.
+2017-09-26 10:48:41.982 --- INFORM: Using default data source for SNOALB.
+2017-09-26 10:48:41.982 --- INFORM: For SLOPECAT, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.982 --- INFORM: Using default interpolator sequence for SLOPECAT.
+2017-09-26 10:48:41.982 --- INFORM: For SLOPECAT, couldn't find 30s data source.
+2017-09-26 10:48:41.982 --- INFORM: Using default data source for SLOPECAT.
+2017-09-26 10:48:41.983 --- INFORM: For CON, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.983 --- INFORM: Using default interpolator sequence for CON.
+2017-09-26 10:48:41.983 --- INFORM: For CON, couldn't find 30s data source.
+2017-09-26 10:48:41.983 --- INFORM: Using default data source for CON.
+2017-09-26 10:48:41.983 --- INFORM: For VAR, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.983 --- INFORM: Using default interpolator sequence for VAR.
+2017-09-26 10:48:41.983 --- INFORM: For VAR, couldn't find 30s data source.
+2017-09-26 10:48:41.983 --- INFORM: Using default data source for VAR.
+2017-09-26 10:48:41.983 --- INFORM: For OA1, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.983 --- INFORM: Using default interpolator sequence for OA1.
+2017-09-26 10:48:41.983 --- INFORM: For OA1, couldn't find 30s data source.
+2017-09-26 10:48:41.983 --- INFORM: Using default data source for OA1.
+2017-09-26 10:48:41.984 --- INFORM: For OA2, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.984 --- INFORM: Using default interpolator sequence for OA2.
+2017-09-26 10:48:41.984 --- INFORM: For OA2, couldn't find 30s data source.
+2017-09-26 10:48:41.984 --- INFORM: Using default data source for OA2.
+2017-09-26 10:48:41.984 --- INFORM: For OA3, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.984 --- INFORM: Using default interpolator sequence for OA3.
+2017-09-26 10:48:41.984 --- INFORM: For OA3, couldn't find 30s data source.
+2017-09-26 10:48:41.984 --- INFORM: Using default data source for OA3.
+2017-09-26 10:48:41.984 --- INFORM: For OA4, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.984 --- INFORM: Using default interpolator sequence for OA4.
+2017-09-26 10:48:41.985 --- INFORM: For OA4, couldn't find 30s data source.
+2017-09-26 10:48:41.985 --- INFORM: Using default data source for OA4.
+2017-09-26 10:48:41.985 --- INFORM: For OL1, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.985 --- INFORM: Using default interpolator sequence for OL1.
+2017-09-26 10:48:41.985 --- INFORM: For OL1, couldn't find 30s data source.
+2017-09-26 10:48:41.985 --- INFORM: Using default data source for OL1.
+2017-09-26 10:48:41.985 --- INFORM: For OL2, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.985 --- INFORM: Using default interpolator sequence for OL2.
+2017-09-26 10:48:41.985 --- INFORM: For OL2, couldn't find 30s data source.
+2017-09-26 10:48:41.985 --- INFORM: Using default data source for OL2.
+2017-09-26 10:48:41.986 --- INFORM: For OL3, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.986 --- INFORM: Using default interpolator sequence for OL3.
+2017-09-26 10:48:41.986 --- INFORM: For OL3, couldn't find 30s data source.
+2017-09-26 10:48:41.986 --- INFORM: Using default data source for OL3.
+2017-09-26 10:48:41.986 --- INFORM: For OL4, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:41.986 --- INFORM: Using default interpolator sequence for OL4.
+2017-09-26 10:48:41.986 --- INFORM: For OL4, couldn't find 30s data source.
+2017-09-26 10:48:41.986 --- INFORM: Using default data source for OL4.
+2017-09-26 10:48:41.986 --- INFORM: Using 30s interpolator sequence for VAR_SSO.
+2017-09-26 10:48:41.986 --- INFORM: Using 30s data source for VAR_SSO.
+2017-09-26 10:48:42.018 --- INFORM: For LAKE_DEPTH, couldn't find interpolator sequence for resolution 30s.
+2017-09-26 10:48:42.018 --- INFORM: Using default interpolator sequence for LAKE_DEPTH.
+2017-09-26 10:48:42.018 --- INFORM: For LAKE_DEPTH, couldn't find 30s data source.
+2017-09-26 10:48:42.018 --- INFORM: Using default data source for LAKE_DEPTH.
+2017-09-26 10:48:42.073 --- Processing field 1 of 25 (LANDUSEF)
+2017-09-26 10:48:42.564 --- Processing field 2 of 25 (LU_INDEX)
+2017-09-26 10:48:42.573 --- Processing field 3 of 25 (HGT_M)
+2017-09-26 10:48:42.703 --- Processing field 4 of 25 (SOILTEMP)
+2017-09-26 10:48:42.718 --- Processing field 5 of 25 (SOILCTOP)
+2017-09-26 10:48:43.237 --- Processing field 6 of 25 (SCT_DOM)
+2017-09-26 10:48:43.240 --- Processing field 7 of 25 (SOILCBOT)
+2017-09-26 10:48:43.781 --- Processing field 8 of 25 (SCB_DOM)
+2017-09-26 10:48:43.784 --- Processing field 9 of 25 (ALBEDO12M)
+2017-09-26 10:48:43.893 --- Processing field 10 of 25 (GREENFRAC)
+2017-09-26 10:48:44.075 --- Processing field 11 of 25 (LAI12M)
+2017-09-26 10:48:44.129 --- Processing field 12 of 25 (SNOALB)
+2017-09-26 10:48:44.140 --- Processing field 13 of 25 (SLOPECAT)
+2017-09-26 10:48:44.161 --- Processing field 14 of 25 (CON)
+2017-09-26 10:48:44.194 --- Processing field 15 of 25 (VAR)
+2017-09-26 10:48:44.224 --- Processing field 16 of 25 (OA1)
+2017-09-26 10:48:44.274 --- Processing field 17 of 25 (OA2)
+2017-09-26 10:48:44.293 --- Processing field 18 of 25 (OA3)
+2017-09-26 10:48:44.309 --- Processing field 19 of 25 (OA4)
+2017-09-26 10:48:44.325 --- Processing field 20 of 25 (OL1)
+2017-09-26 10:48:44.344 --- Processing field 21 of 25 (OL2)
+2017-09-26 10:48:44.377 --- Processing field 22 of 25 (OL3)
+2017-09-26 10:48:44.395 --- Processing field 23 of 25 (OL4)
+2017-09-26 10:48:44.472 --- Processing field 24 of 25 (VAR_SSO)
+2017-09-26 10:48:44.882 --- Processing field 25 of 25 (LAKE_DEPTH)
+2017-09-26 10:48:45.321 ---  *** Successful completion of program geogrid.exe ***
